@@ -1,5 +1,6 @@
-import os, dotenv
-dotenv.load_dotenv()  # Load environment variables from .env file
+import os
+# , dotenv
+# dotenv.load_dotenv()  # Load environment variables from .env file
 from telethon import TelegramClient, events
 
 # 1. Pull credentials securely from Render's Environment Variables
